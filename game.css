@@ -1,0 +1,89 @@
+body{
+    background: url(./assets/bg.png);
+    font-family: 'Poppins';
+    font-weight:bolder;
+    color: white;
+}
+
+#game-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center ;
+        height: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin: 10px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#main-container{
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.team-div {
+    width: 500px;
+    height: 550px;
+    border: 3px solid #ffc434;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 0px 20px 0px;
+}
+
+.image-container>img{
+    width: 460px;
+    align-self: flex-start;
+}
+#player-button-container{
+    width: 90%;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 40px;
+    text-align: center;
+}
+
+.game-buttons {
+    margin: 5px;
+    cursor: pointer;
+}
+
+#game-over-container {
+    display: none;
+    margin-top: 20px;
+}
+
+#play-again-button{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    background-color: #f1bc35;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#game-over-container button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#game-over{
+    text-align: center;
+    display: none;
+}

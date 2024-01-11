@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <h1>
+            <span id="score-player">0</span>
+            <span>-</span>
+            <span id="score-computer">0</span>
+        </h1>
+    
+        <div id="main-container" class="flex">
+
+            <div id="player-box" class="team-div">
+                <h3>You</h3>
+
+                <div id="player-image-container" class="image-container">
+                    <img src="" alt="" id="image-1">
+                </div>
+
+                <div id="player-button-container" class="flex">
+                    <div class="game-buttons" id="player-rock">
+                        <img src="./assets/rock-logo.png" alt="rock">
+                    </div>
+                    <div class="game-buttons" id="player-paper">
+                        <img src="./assets/paper-logo.png" alt="paper">
+                    </div>
+                    <div class="game-buttons" id="player-scissors">
+                        <img src="./assets/scissors-logo.png" alt="scissors">
+                    </div>
+                </div>
+            </div>
+
+            <img src="./assets/vs.png" alt="">
+
+        
+            <div id="computer-box" class="team-div">
+                <h3>Comp</h3>
+
+                <div id="computer-image-container" class="image-container">
+                    <img src="" alt="" id="image-2">
+                </div>
+            </div>
+        </div>
+
+        <div id="game-over">
+            <h3 id="game-over-message"></h3>
+            <button id="play-again-button">Play Again</button>
+        </div>
+    </div>
+
+    <script src="./game.js"></script>
+</body>
+</html>
