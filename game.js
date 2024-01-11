@@ -1,4 +1,3 @@
-// Declaring variables--------------------------------
 var player = document.getElementById("image-1");
 var computer = document.getElementById("image-2");
 var rockBtn = document.getElementById("player-rock");
@@ -48,7 +47,7 @@ function updateScore() {
     }
 
     scorePlayer.textContent = playerScore;
-    scorePlayer.textContent = compScore;
+    scoreComputer.textContent = compScore;
 
     if (playerScore == 5 || compScore == 5) {
         rockBtn.style.display = "none";
